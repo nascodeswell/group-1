@@ -1,32 +1,119 @@
-<!doctype html>
+ <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>J220 Group Project</title>
-  </head>
-  <body>
+    <title>Nassirah Nelson</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            background: #1a1a1a;   
+            font-family: Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #f0f0f0;       
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
 
-    <header class="container">
-      <div class="p-5 my-4 rounded-3 bg-body-secondary">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Your Name Here</h1>
-          <p class="fs-4">A short tagline about yourself.</p>
+        .card {
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 2.8rem 2.2rem;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.5);
+            border: 2px solid #111;
+            transition: box-shadow 0.1s;
+        }
+
+        .card:hover {
+            box-shadow: 0 28px 45px rgba(0,0,0,0.7);
+        }
+
+        
+        .photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 1.8rem;
+            border: 4px solid #111;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            background: #ddd;       
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            text-align: center;
+            color: #000;
+            margin-bottom: 0.25rem;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #333;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #222;
+            padding-bottom: 1.2rem;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+            color: #111;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .content p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 450px) {
+            .card {
+                padding: 2rem 1.5rem;
+            }
+            h1 {
+                font-size: 2.4rem;
+            }
+            .photo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+       
+        <img class="photo" src="https://changemaker.berkeley.edu/sites/default/files/styles/openberkeley_image_full/public/general/nassirah_changemaker_banner_portrait.jpg?itok=Oeja_0wx&timestamp=1680797087" alt="my photo">
+
+        <h1>Nassirah Nelson</h1>
+        <div class="subtitle">design · STEM · Innovation</div>
+
+        <div class="content">
+            <p>   I am a multidisciplinary engineer and STEM educator whose work is rooted in social practice. My research explores ways to recontextualize and teach STEM through the arts, specifically through creative technologies. I work across a variety of mediums and aim to create programs and products that foster inclusivity and connection through collaboration and play.
+
+<p>I am the founder of Sample Mode: Introduction to Sound Design, Beat-making, and Creative Music Technologies, a Berkeley Changemaker Course®. The class is designed to offer students space to explore and develop both their STEM and creative identities through the art of sampling, music production, design thinking, and digital fabrication.</p>
+
+<p>I also serve as the Program Manager for the CITRIS Innovation Hub, which includes the Invention Lab, a community-centered makerspace located on UC Berkeley’s campus. In this role, I develop programs that support faculty, student, and community innovation by providing the knowledge, tools, and support needed to rapidly design and prototype novel interactive products.</p>
         </div>
-      </div>
-    </header>
-
-
-    <section class="container col-12 col-lg-6">
-
-      <h3 class="fw-bold">Change this headline </h3>
-      <p>The following post can be a reflection of your professional work, a hobby or interest, or another similar post. Journalism students can use this post to show case a few projects.</p>
-      <p>If you with to embed an image, include it in this folder, and link to it using the img tag.</p>
-
-    </section>
-
-
-  </body>
+    </div>
+</body>
 </html>
